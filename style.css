@@ -1,0 +1,134 @@
+body{
+background-image: url(css/back.png);
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+.pool {
+	position: relative;
+	margin: 300px auto 0;
+	width: 500px;
+	height: 250px;
+	background: linear-gradient(0deg, #000, #242424);
+}
+
+.pool:before, .pool:after {
+	content: '';
+	position:absolute;
+    right: -2px;
+    bottom: -2px;
+	background: linear-gradient(45deg, #fff99e,#ffff00, #ff0000, #535353,#ffff00, #ff0000);
+	background-size: 200%;
+	width: calc(100% + 1px);
+	height: calc(100% + 1px);
+	z-index: -1;
+	animation: steam 30s linear infinite;
+}
+
+@keyframes steam {
+	0% {
+		background-position: 0 0;
+	}
+	50% {
+		background-position: 400% 0;
+	}
+	100% {
+		background-position: 0 0;
+	}
+}
+
+.pool:after {
+	filter: blur(50px);
+}
+
+.list{
+    height: 380px; 
+    width: 400px;
+    margin: auto; /* выровнять по центру */
+    display: flex; /* блоки горизонтально */
+    align-items: center; /* дочерние блоки по центру внутри текущего дива */
+    justify-content: center;/* элементы по центру главной оси */
+}
+
+p{
+color: #ffffff;
+text-align: center;
+font-weight: bold;
+font-size: 24px;
+}
+
+#myTeam, #notMyTeam{
+    width: 360px;
+    min-height: 250px;
+    margin: 10px;
+}
+
+.teamline{
+    display: flex;
+    margin: 15px;
+}
+
+.drophero, .drophero1, .poolhero,.role0, .role1, .role2,.role3,.role4,.role5,.role6,.role7,.role8,.role9 {
+    height: 40px;
+    width: 40px;
+    margin: auto;
+    border: 1px solid #ffffff;
+}
+
+.pool{
+    height: 200px; 
+    width: 600px;
+/*     border: 2px solid #c5e3ff; */
+    align-items: center; /* дочерние блоки по центру внутри текущего дива */
+    display: flex; /* блоки горизонтально */
+    margin: auto; /* выровнять по центру */
+    flex-wrap: wrap; /* перенос элементов на новую строку */
+    gap: 10px; /* отступ между дочерними элементами */
+
+}
+
+img{
+    height: 40px; 
+    width: 40px;
+}
+
+.hero--active
+{
+    opacity: 0.5;
+    height: 40px;
+    width: 40px;
+    margin: auto;
+/*     border: 2px solid #ffffff; */
+}
+
+/* ***************НИЖНИЙ БЛОК****************** */
+
+.blheroes{
+    bottom: 50px;
+    position: fixed;
+    display: inline-block;
+}
+
+.tow{
+display: inline-block;
+width: auto;
+margin: 5px;
+}
+
+.line{
+    height: 50px;
+}
+
+.hero{
+    width: 40 px;
+    display: inline-block;
+}
+
+.hero img{
+    width: 40px;
+}
+
+/* background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00,#ffff00, #ff0000, #fb0094, 
+#0000ff, #00ff00,#ffff00, #ff0000); */

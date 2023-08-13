@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pick your hero</title>
+    <link rel="stylesheet" href="style.css">
+    <script src = "app.js" defer></script>
+</head>
+<body> 
+    <div class = "pool">
+    </div>
+    <p></p>
+    <div class="list">
+        <div id="myTeam">
+            <p>My team</p>
+            <div class="teamline">
+                <div class="drophero"></div>
+                <div class="role0"></div>
+            </div>
+            <div class="teamline">
+                <div class="drophero"></div>
+                <div class="role1"></div>
+            </div>
+            <div class="teamline">
+                <div class="drophero"></div>
+                <div class="role2"></div>
+            </div>
+            <div class="teamline">
+                <div class="drophero"></div>
+                <div class="role3"></div>
+            </div>
+            <div class="teamline">
+                <div class="drophero"></div>
+                <div class="role4"></div>
+            </div>
+            
+        </div>
+        <div id="notMyTeam">
+            <p>Opposite team</p>
+            <div class="teamline">
+                <div class="drophero"></div>
+                <div class="role5"></div>
+            </div>
+            <div class="teamline">
+                <div class="drophero"></div>
+                <div class="role6"></div>
+            </div>
+            <div class="teamline">
+                <div class="drophero"></div>
+                <div class="role7"></div>
+            </div>
+            <div class="teamline">
+                <div class="drophero"></div>
+                <div class="role8"></div>
+            </div>
+            <div class="teamline">
+                <div class="drophero"></div>
+                <div class="role9"></div>
+            </div>
+        </div>
+    </div>
+    <p></p>
+    <div class="heroes">
+        <div class="tow">
+            <div class="line">
+                <div class ="hero" draggable="true"><img src="icons/t001_Admiral.png" alt = "001_Admiral.png"></div>
+                <div class ="hero" draggable="true"><img src="icons/t002_Beastmaster.png" alt = "002_Beastmaster.png"></div>
+                <div class ="hero" draggable="true"><img src="icons/t003_Centaur_warchief.png" alt = "003_Centaur warchief.png"></div>
+                <div class ="hero" draggable="true"><img src="icons/t004_Earthshaker.png" alt = "004_Earthshaker.png"></div>
+            </div>
+            <div class="line">
+                <div class ="hero" draggable="true"><img src="icons/t005_Omniknight.png" alt = "005_Omniknight.png"></div>
+                <div class ="hero" draggable="true"><img src="icons/t006_Pandaren_brewmaster.png" alt = "006_Pandaren brewmaster.png"></div>
+                <div class ="hero" draggable="true"><img src="icons/t007_Rogue_knight.png" alt = "007_Rogue knight.png"></div>
+                <div class ="hero" draggable="true"><img src="icons/t008_Stone_giant.png" alt = "008_Stone giant.png"></div>
+            </div>
+            <div class="line">
+                <div class ="hero" draggable="true"><img src="icons/t009_Tauren_chieftan.png" alt = "009_Tauren chieftan.png"></div>
+                <div class ="hero" draggable="true"><img src="icons/t010_Treant_protector.png" alt = "010_Treant protector.png"></div>
+                <div class ="hero" draggable="true"><img src="icons/t011_Guardian_wisp.png" alt = "011_Guardian wisp.png"></div>
+                <div class ="hero" draggable="true"><img src="icons/t012_Alchemist.png" alt = "012_Alchemist.png"></div>
+            </div>
+        </div>
+        <div class="tow">
+            <div class="line">
+                <div class ="hero" draggable="true"><img src="icons/t013_Clockwerk_goblin.png" alt = "013_Clockwerk goblin.png"></div>
+                <div class ="hero" draggable="true"><img src="icons/t014_Dragon_knight.png" alt = "014_Dragon knight.png"></div>
+                <div class ="hero" draggable="true"><img src="icons/t015_Sacred_warrior.png" alt = "015_Sacred warrior.png"></div>
+                <div class ="hero" draggable="true"><img src="icons/t016_Bristleback.png" alt = "016_Bristleback.png"></div>
+                
+            </div>
+            <div class="line">
+                <div class ="hero" draggable="true"><img src="icons/t017_Phoenix.png" alt = "017_Phoenix.png"></div>
+                <div class ="hero" draggable="true"><img src="icons/t018_Ymir.png" alt = "018_Ymir.png"></div>
+                <div class ="hero" draggable="true"><img src="icons/t019_Legion_commander.png" alt = "019_Legion commander.png"></div>
+                <div class ="hero" draggable="true"><img src="icons/t020_Goblin_shredder.png" alt = "020_Goblin shredder.png"></div>
+            </div>
+            <div class="line">
+                <div class ="hero" draggable="true"><img src="icons/t021_Earth_spirit.png" alt = "021_Earth spirit.png"></div>
+                <div class ="hero" draggable="true"><img src="icons/t022_Axe.png" alt = "022_Axe.png"></div>
+                <div class ="hero" draggable="true"><img src="icons/t023_Chaos_knight.png" alt = "023_Chaos knight.png"></div>
+                <div class ="hero" draggable="true"><img src="icons/t024_Doom_bringer.png" alt = "024_Doom bringer.png"></div>
+            </div>
+        </div>
+        <div class="tow">
+            <div class="line">
+                <div class ="hero" draggable="true"><img src="icons/t025_Lifestealer.png" alt = "025_Lifestealer.png"></div>
+                <div class ="hero" draggable="true"><img src="icons/t026_Lord_of_Avernus.png" alt = "026_Lord of Avernus.png"></div>
+                <div class ="hero" draggable="true"><img src="icons/t027_Lycantrophe.png" alt = "027_Lycantrophe.png"></div>
+                <div class ="hero" draggable="true"><img src="icons/t028_Night_stalker.png" alt = "028_Night stalker.png"></div>
+            </div>
+            <div class="line">
+                <div class ="hero" draggable="true"><img src="icons/t029_Pit_lord.png" alt = "029_Pit lord.png"></div>
+                <div class ="hero" draggable="true"><img src="icons/t030_Pudge.png" alt = "030_Pudge.png"></div>
+                <div class ="hero" draggable="true"><img src="icons/t031_Skeleton_king.png" alt = "031_Skeleton king.png"></div>
+                <div class ="hero" draggable="true"><img src="icons/t032_Slithereen_guard.png" alt = "032_Slithereen guard .png"></div>
+            </div>
+            <div class="line">
+                <div class ="hero" draggable="true"><img src="icons/t033_Undying.png" alt = "033_Undying.png"></div>
+                <div class ="hero" draggable="true"><img src="icons/t034_Tidehunter.png" alt = "034_Tidehunter.png"></div>
+                <div class ="hero" draggable="true"><img src="icons/t035_Magnataur.png" alt = "035_Magnataur.png"></div>
+                <div class ="hero" draggable="true"><img src="icons/t036_Spiritbreaker.png" alt = "036_Spiritbreaker.png"></div>
+            </div>
+        </div>
+        <div class="tow">
+            <div class="line">
+                <div class ="hero" draggable="true"><img src="icons/t037_Sand_king.png" alt = "037_Sand king.png"></div>
+            </div>
+        </div>
+        <div class="tow">
+            <div class="line">
+                <div class ="hero" draggable="true"><img src="icons/t038_Anti_mage.png" alt = "038_Anti-mage.png"></div>
+                <div class ="hero" draggable="true"><img src="icons/t039_Dwarven_sniper.png" alt = "039_Dwarven sniper.png"></div>
+                <div class ="hero" draggable="true"><img src="icons/t040_Juggernaut.png" alt = "040_Juggernaut.png"></div>
+                <div class ="hero" draggable="true"><img src="icons/t041_Lone_druid.png" alt = "041_Lone druid.png"></div>
+            </div>
+            <div class="line">
+                <div class ="hero" draggable="true"><img src="icons/t042_Moon_rider.png" alt = "042_Moon rider.png"></div>
+                <div class ="hero" draggable="true"><img src="icons/t043_Morphling.png" alt = "043_Morphling.png"></div>
+                <div class ="hero" draggable="true"><img src="icons/t044_Naga_siren.png" alt = "044_Naga siren.png"></div>
+                <div class ="hero" draggable="true"><img src="icons/t045_Phantom_lancer.png" alt = "045_Phantom lancer.png"></div>
+            </div>
+            <div class="line">
+                <div class ="hero" draggable="true"><img src="icons/t046_Priestess_of_the_moon.png" alt = "046_Priestess of the moon.png"></div>
+                <div class ="hero" draggable="true"><img src="icons/t047_Stealth_assassin.png" alt = "047_Stealth assassin.png"></div>
+                <div class ="hero" draggable="true"><img src="icons/t048_Troll_warlord.png" alt = "048_Troll warlord.png"></div>
+                <div class ="hero" draggable="true"><img src="icons/t049_Gyrocopter.png" alt = "049_Gyrocopter.png"></div>
+            </div>
+        </div>
+        <div class="tow">
+            <div class="line">
+                <div class ="hero" draggable="true"><img src="icons/t050_Drow_ranger.png" alt = "050_Drow ranger.png"></div>
+                <div class ="hero" draggable="true"><img src="icons/t051_Templar_assassin.png" alt = "051_Templar assassin.png"></div>
+                <div class ="hero" draggable="true"><img src="icons/t052_Ursa_warrior.png" alt = "052_Ursa warrior.png"></div>
+                <div class ="hero" draggable="true"><img src="icons/t053_Vengeful_spirit.png" alt = "053_Vengeful spirit.png"></div>
+            </div>
+            <div class="line">
+                <div class ="hero" draggable="true"><img src="icons/t054_Bounty_hunter.png" alt = "054_Bounty hunter.png"></div>
+                <div class ="hero" draggable="true"><img src="icons/t055_Ember_spirit.png" alt = "055_Ember spirit.png"></div>
+                <div class ="hero" draggable="true"><img src="icons/t056_Bloodseeker.png" alt = "056_Bloodseeker.png"></div>
+                <div class ="hero" draggable="true"><img src="icons/t057_Bone_fletcher.png" alt = "057_Bone fletcher.png"></div>
+            </div>
+            <div class="line">
+                <div class ="hero" draggable="true"><img src="icons/t058_Broodmother.png" alt = "058_Broodmother.png"></div>
+                <div class ="hero" draggable="true"><img src="icons/t059_Nerubian_assassin.png" alt = "059_Nerubian assassin.png"></div>
+                <div class ="hero" draggable="true"><img src="icons/t060_Nerubian_weaver.png" alt = "060_Nerubian weaver.png"></div>
+                <div class ="hero" draggable="true"><img src="icons/t061_Phantom_assassin.png" alt = "061_Phantom assassin.png"></div>
+            </div>
+        </div>
+        <div class="tow">
+            <div class="line">
+                <div class ="hero" draggable="true"><img src="icons/t062_Shadow_fiend.png" alt = "062_Shadow fiend.png"></div>
+                <div class ="hero" draggable="true"><img src="icons/t063_Soul_keeper.png" alt = "063_Soul keeper.png"></div>
+                <div class ="hero" draggable="true"><img src="icons/t064_Spectre.png" alt = "064_Spectre.png"></div>
+                <div class ="hero" draggable="true"><img src="icons/t065_Venomancer.png" alt = "065_Venomancer.png"></div>
+            </div>
+            <div class="line">
+                <div class ="hero" draggable="true"><img src="icons/t066_Netherdrake.png" alt = "066_Netherdrake.png"></div>
+                <div class ="hero" draggable="true"><img src="icons/t067_Geomancer.png" alt = "067_Geomancer.png"></div>
+                <div class ="hero" draggable="true"><img src="icons/t068_Lighting_revenant.png" alt = "068_Lighting revenant.png"></div>
+                <div class ="hero" draggable="true"><img src="icons/t069_Murloc_nightcrawler.png" alt = "069_Murloc nightcrawler.png"></div>
+            </div>
+            <div class="line">
+                <div class ="hero" draggable="true"><img src="icons/t070_Faceless_void.png" alt = "070_Faceless void.png"></div>
+                <div class ="hero" draggable="true"><img src="icons/t071_Gorgon.png" alt = "071_Gorgon.png"></div>
+                <div class ="hero" draggable="true"><img src="icons/t072_Arc_warden.png" alt = "072_Arc warden.png"></div>
+            </div>
+        </div>
+        <div class="tow">
+            <div class="line">
+                <div class ="hero" draggable="true"><img src="icons/t073_Crystal_maiden.png" alt = "073_Crystal maiden.png"></div>
+                <div class ="hero" draggable="true"><img src="icons/t074_Enchantress.png" alt = "074_Enchantress.png"></div>
+                <div class ="hero" draggable="true"><img src="icons/t075_Faeie_Dragon.png" alt = "075_Faeie Dragon.png"></div>
+                <div class ="hero" draggable="true"><img src="icons/t076_Holy_knight.png" alt = "076_Holy knight.png"></div>
+            </div>
+            <div class="line">
+                <div class ="hero" draggable="true"><img src="icons/t077_Keeper_of_the_light.png" alt = "077_Keeper of the light.png"></div>
+                <div class ="hero" draggable="true"><img src="icons/t078_Lord_of_Olympia.png" alt = "078_Lord of Olympia.png"></div>
+                <div class ="hero" draggable="true"><img src="icons/t079_Prophet.png" alt = "079_Prophet.png"></div>
+                <div class ="hero" draggable="true"><img src="icons/t080_Silencer.png" alt = "080_Silencer.png"></div>
+            </div>
+            <div class="line">
+                <div class ="hero" draggable="true"><img src="icons/t081_Slayer.png" alt = "081_Slayer.png"></div>
+                <div class ="hero" draggable="true"><img src="icons/t082_Storm_spirit.png" alt = "082_Storm spirit.png"></div>
+                <div class ="hero" draggable="true"><img src="icons/t083_Windrunner.png" alt = "083_Windrunner.png"></div>
+                <div class ="hero" draggable="true"><img src="icons/t084_Disruptor.png" alt = "084_Disruptor.png"></div>
+            </div>
+        </div>
+        <div class="tow">
+            <div class="line">
+                <div class ="hero" draggable="true"><img src="icons/t085_Ogre_magi.png" alt = "085_Ogre magi.png"></div>
+                <div class ="hero" draggable="true"><img src="icons/t086_Goblin_techies.png" alt = "086_Goblin techies.png"></div>
+                <div class ="hero" draggable="true"><img src="icons/t087_Twin_head_dragon.png" alt = "087_Twin head dragon.png"></div>
+                <div class ="hero" draggable="true"><img src="icons/t088_Tinker.png" alt = "088_Tinker.png"></div>
+            </div>
+            <div class="line">
+                <div class ="hero" draggable="true"><img src="icons/t089_Shadow_shaman.png" alt = "089_Shadow shaman.png"></div>
+                <div class ="hero" draggable="true"><img src="icons/t090_Grand_magus.png" alt = "090_Grand magus.png"></div>
+                <div class ="hero" draggable="true"><img src="icons/t091_Skywrath_mage.png" alt = "091_Skywrath mage.png"></div>
+                <div class ="hero" draggable="true"><img src="icons/t092_Oracle.png" alt = "092_Oracle.png"></div>
+            </div>
+            <div class="line">
+                <div class ="hero" draggable="true"><img src="icons/t093_Bane_elemental.png" alt = "093_Bane elemental.png"></div>
+                <div class ="hero" draggable="true"><img src="icons/t094_Dark_seer.png" alt = "094_Dark seer.png"></div>
+                <div class ="hero" draggable="true"><img src="icons/t095_Death_prophet.png" alt = "095_Death prophet.png"></div>
+                <div class ="hero" draggable="true"><img src="icons/t096_Demon_witch.png" alt = "096_Demon witch.png"></div>
+            </div>
+        </div>
+        <div class="tow">
+            <div class="line">
+                <div class ="hero" draggable="true"><img src="icons/t097_Enigma.png" alt = "097_Enigma.png"></div>
+                <div class ="hero" draggable="true"><img src="icons/t098_Lich.png" alt = "098_Lich.png"></div>
+                <div class ="hero" draggable="true"><img src="icons/t099_Necrolyte.png" alt = "099_Necrolyte.png"></div>
+                <div class ="hero" draggable="true"><img src="icons/t100_Oblivion.png" alt = "100_Oblivion.png"></div>
+            </div>
+            <div class="line">
+                <div class ="hero" draggable="true"><img src="icons/t101_Obsidian_destroyer.png" alt = "101_Obsidian destroyer.png"></div>
+                <div class ="hero" draggable="true"><img src="icons/t102_Queen_of_pain.png" alt = "102_Queen of pain.png"></div>
+                <div class ="hero" draggable="true"><img src="icons/t103_Warlock.png" alt = "103_Warlock.png"></div>
+                <div class ="hero" draggable="true"><img src="icons/t104_Shadow_demon.png" alt = "104_Shadow demon.png"></div>
+            </div>
+            <div class="line">
+                <div class ="hero" draggable="true"><img src="icons/t105_Batrider.png" alt = "105_Batrider.png"></div>
+                <div class ="hero" draggable="true"><img src="icons/t106_Shadow_priest.png" alt = "106_Shadow Priest.png"></div>
+                <div class ="hero" draggable="true"><img src="icons/t107_Invoker.png" alt = "107_Invoker.png"></div>
+                <div class ="hero" draggable="true"><img src="icons/t108_Necro`lic.png" alt = "108_Necro`lic.png"></div>
+            </div>
+        </div>
+        <div class="tow">
+            <div class="line">
+                <div class ="hero" draggable="true"><img src="icons/t109_Tormented_soul.png" alt = "109_Tormented soul.png"></div>
+                <div class ="hero" draggable="true"><img src="icons/t110_Witch_doctor.png" alt = "110_Witch doctor.png"></div>
+                <div class ="hero" draggable="true"><img src="icons/t111_Ancient_apparition.png" alt = "111_Ancient apparition.png"></div>
+                <div class ="hero" draggable="true"><img src="icons/t112_Winter_wywern.png" alt = "112_Winter wywern.png"></div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
